@@ -1,0 +1,34 @@
+title: 'Bottom Banner'
+fields:
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Title
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: description
+    field:
+      antlers: false
+      display: Description
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: link
+    field:
+      collections:
+        - pages
+      display: Link
+      type: link
+      icon: link
+      listable: hidden
+      instructions_position: above
+      visibility: visible

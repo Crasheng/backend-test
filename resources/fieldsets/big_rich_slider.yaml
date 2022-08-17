@@ -1,0 +1,40 @@
+title: 'Big Rich Slider'
+fields:
+  -
+    handle: main_title
+    field:
+      input_type: text
+      antlers: false
+      display: 'Main Title'
+      type: text
+      icon: text
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: main_description
+    field:
+      antlers: false
+      display: 'Main Description'
+      type: textarea
+      icon: textarea
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+  -
+    handle: sliders
+    field:
+      collapse: false
+      previews: true
+      sets:
+        slide:
+          display: Slide
+          fields:
+            -
+              import: rich_slide_content
+      display: Sliders
+      type: replicator
+      icon: replicator
+      listable: hidden
+      instructions_position: above
+      visibility: visible
